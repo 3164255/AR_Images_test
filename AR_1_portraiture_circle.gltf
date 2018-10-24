@@ -1,0 +1,330 @@
+{
+    "accessors": [
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                1.1052558422088623,
+                -6.3412861824035645,
+                0.9299775958061218
+            ],
+            "min": [
+                -0.8947440981864929,
+                -6.3412861824035645,
+                -1.0700223445892334
+            ],
+            "name": "accessor_buffer_Plane_POSITION_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 768,
+            "max": [
+                497
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Circle_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 498,
+            "max": [
+                2.794341802597046,
+                1.6719330549240112,
+                1.202255129814148
+            ],
+            "min": [
+                0.34508204460144043,
+                1.509792685508728,
+                -1.2470051050186157
+            ],
+            "name": "accessor_buffer_Circle_POSITION_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 498,
+            "max": [
+                0.9951856732368469,
+                1.0,
+                0.9951848983764648
+            ],
+            "min": [
+                -0.9951847791671753,
+                -1.0,
+                -0.9951847791671753
+            ],
+            "name": "accessor_buffer_Circle_NORMAL_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "min": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "name": "accessor_buffer_Plane_NORMAL_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 6,
+            "max": [
+                3
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Plane_0",
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "copyright": "",
+        "generator": "blendergltf v1.2.0",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 5976,
+            "byteOffset": 0,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Circle_POSITION_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 5976,
+            "byteOffset": 5976,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Circle_NORMAL_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1540,
+            "byteOffset": 11952,
+            "name": "bufferView_buffer_Circle_0",
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 48,
+            "byteOffset": 13492,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Plane_POSITION_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 48,
+            "byteOffset": 13540,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Plane_NORMAL_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 16,
+            "byteOffset": 13588,
+            "name": "bufferView_buffer_Plane_0",
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 13604,
+            "name": "buffer_AR_1_portraiture_circle",
+            "uri": "buffer_AR_1_portraiture_circle.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "Camera.001",
+            "perspective": {
+                "aspectRatio": 1.738996110567484,
+                "yfov": 0.3561858832836151,
+                "zfar": 100.0,
+                "znear": 0.10000000149011612
+            },
+            "type": "perspective"
+        }
+    ],
+    "materials": [
+        {
+            "alphaMode": "OPAQUE",
+            "doubleSided": false,
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "Material.001",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.64000004529953,
+                    0.64000004529953,
+                    0.64000004529953,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        },
+        {
+            "alphaMode": "OPAQUE",
+            "doubleSided": false,
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "Material.002",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.64000004529953,
+                    0.64000004529953,
+                    0.64000004529953,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Circle",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 3,
+                        "POSITION": 2
+                    },
+                    "indices": 1,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Plane",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 4,
+                        "POSITION": 0
+                    },
+                    "indices": 5,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "name": "Camera",
+            "rotation": [
+                -0.019762279465794563,
+                -0.3231022357940674,
+                -0.00680830841884017,
+                0.9461333155632019
+            ],
+            "scale": [
+                0.29812079668045044,
+                0.2981208264827728,
+                0.2981208264827728
+            ],
+            "translation": [
+                -2.2073583602905273,
+                2.3038148880004883,
+                4.694759368896484
+            ]
+        },
+        {
+            "mesh": 0,
+            "name": "Circle",
+            "rotation": [
+                0.0,
+                0.0,
+                0.3709826171398163,
+                0.928639829158783
+            ],
+            "scale": [
+                11.901533126831055,
+                11.901533126831055,
+                11.901532173156738
+            ],
+            "translation": [
+                -2.191650867462158,
+                2.2072582244873047,
+                4.53843879699707
+            ]
+        },
+        {
+            "mesh": 1,
+            "name": "Plane",
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                18.93067169189453,
+                0.2981208264827728,
+                18.93067169189453
+            ],
+            "translation": [
+                -2.191649913787842,
+                2.207256317138672,
+                4.538438320159912
+            ]
+        }
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "extras": {
+                "active_camera": -1,
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                2,
+                0,
+                1
+            ]
+        }
+    ]
+}
